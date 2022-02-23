@@ -40,3 +40,10 @@ body {
   height: 15vh;
   color: white;
 }
+
+h1 {
+  display: inline-block;
+  background-color: brown;
+  color: white;
+
+}
