@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contener {}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-400px, 0px);
+}
+
+.box:active {
+  /*background-color:blue;
+  /*transform: translate(100px,-100px);*/
+  /*transform: rotate(45deg);*/
+  /*transform: scale(80deg);*/
+  /*transform: skew(45deg);*/
+  /*transform: translate(100px,-200px) rotate(45deg) scale(1.5);*/
+  transform: translate(400px) scale(1.5) rotate(2880deg);
+  background-color: cornflowerblue;
+  font-size: 48px;
+  transform: all 2s linear 0s;
+}
+
+.sarloha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  color: white;
+}
